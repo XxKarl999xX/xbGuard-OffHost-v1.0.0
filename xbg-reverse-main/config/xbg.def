@@ -1,0 +1,4 @@
+LIBRARY xbg
+EXPORTS
+    DllMain
+    XbgShutdown

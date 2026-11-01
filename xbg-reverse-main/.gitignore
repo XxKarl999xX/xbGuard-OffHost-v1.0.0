@@ -1,0 +1,23 @@
+/build/
+*.exe
+*.exp
+*.lib
+*.map
+*.obj
+*.pdb
+*.xdb
+*.xex
+__pycache__/
+*.pyc
+/secrets/
+
+# Local Visual Studio state and logs can contain usernames, paths and devices.
+/.vs/
+/ipch/
+*.suo
+*.sdf
+*.opensdf
+*.vcxproj.user
+*.VC.db
+*.VC.VC.opendb
+*.log

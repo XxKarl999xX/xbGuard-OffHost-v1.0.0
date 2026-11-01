@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xex>
+  <baseaddr addr="0x81E00000" />
+  <sysdll />
+  <format>
+    <raw/>
+    <unencrypted/>
+  </format>
+  <mediatypes>
+    <allpackages/>
+  </mediatypes>
+  <gameregion>
+    <all/>
+  </gameregion>
+  <version major="1" minor="0" build="0" qfe="0" />
+  <exportcontainer name="/" />
+</xex>

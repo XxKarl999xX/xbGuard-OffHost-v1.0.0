@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <ItemGroup>
+    <Filter Include="config" />
+    <Filter Include="include" />
+    <Filter Include="include\xbg" />
+    <Filter Include="include\xbg\core" />
+    <Filter Include="include\xbg\features" />
+    <Filter Include="include\xbg\features\aimbot" />
+    <Filter Include="include\xbg\ui" />
+    <Filter Include="src" />
+    <Filter Include="src\app" />
+    <Filter Include="src\core" />
+    <Filter Include="src\features" />
+    <Filter Include="src\features\aimbot" />
+    <Filter Include="src\features\esp" />
+    <Filter Include="src\ui" />
+    <Filter Include="src\ui\menu" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\app\entry.cpp">
+      <Filter>src\app</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\arena.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\arena_data.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\features\aimbot\auto_wall.cpp">
+      <Filter>src\features\aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="src\features\aimbot\commands.cpp">
+      <Filter>src\features\aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="src\features\aimbot\engine.cpp">
+      <Filter>src\features\aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="src\features\aimbot\frame.cpp">
+      <Filter>src\features\aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="src\features\aimbot\input.cpp">
+      <Filter>src\features\aimbot</Filter>
+    </ClCompile>
+    <ClInclude Include="src\features\aimbot\internal.hpp">
+      <Filter>src\features\aimbot</Filter>
+    </ClInclude>
+    <ClCompile Include="src\features\aimbot\state.cpp">
+      <Filter>src\features\aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="src\features\aimbot\targeting.cpp">
+      <Filter>src\features\aimbot</Filter>
+    </ClCompile>
+    <ClInclude Include="src\features\esp\internal.hpp">
+      <Filter>src\features\esp</Filter>
+    </ClInclude>
+    <ClCompile Include="src\features\esp\lifecycle.cpp">
+      <Filter>src\features\esp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\features\esp\players.cpp">
+      <Filter>src\features\esp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\features\esp\state.cpp">
+      <Filter>src\features\esp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\features\esp\tracers.cpp">
+      <Filter>src\features\esp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\features\esp\world.cpp">
+      <Filter>src\features\esp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\menu\config.cpp">
+      <Filter>src\ui\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\menu\effects.cpp">
+      <Filter>src\ui\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\menu\hooks.cpp">
+      <Filter>src\ui\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\menu\input.cpp">
+      <Filter>src\ui\menu</Filter>
+    </ClCompile>
+    <ClInclude Include="src\ui\menu\internal.hpp">
+      <Filter>src\ui\menu</Filter>
+    </ClInclude>
+    <ClCompile Include="src\ui\menu\notifications.cpp">
+      <Filter>src\ui\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\menu\options.cpp">
+      <Filter>src\ui\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\menu\pages.cpp">
+      <Filter>src\ui\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\menu\render.cpp">
+      <Filter>src\ui\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\menu\state.cpp">
+      <Filter>src\ui\menu</Filter>
+    </ClCompile>
+    <ClInclude Include="include\xbg\core\arena.hpp">
+      <Filter>include\xbg\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\xbg\features\aimbot\auto_bone.hpp">
+      <Filter>include\xbg\features\aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="include\xbg\features\aimbot\auto_wall.hpp">
+      <Filter>include\xbg\features\aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="include\xbg\features\aimbot.hpp">
+      <Filter>include\xbg\features</Filter>
+    </ClInclude>
+    <ClInclude Include="include\xbg\features\esp.hpp">
+      <Filter>include\xbg\features</Filter>
+    </ClInclude>
+    <ClInclude Include="include\xbg\ui\menu.hpp">
+      <Filter>include\xbg\ui</Filter>
+    </ClInclude>
+    <None Include="config\xbg.def">
+      <Filter>config</Filter>
+    </None>
+    <None Include="config\xbg.xexcfg">
+      <Filter>config</Filter>
+    </None>
+    <None Include="README.md" />
+    <None Include="BUILD-VS2010.md" />
+  </ItemGroup>
+</Project>
